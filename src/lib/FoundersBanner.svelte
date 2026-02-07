@@ -3,37 +3,56 @@
 </script>
 
 <section class="px-6 py-12">
-  <div class="relative w-full rounded-[32px] overflow-hidden bg-[#0a2533] min-h-[400px] flex flex-col items-center justify-center text-center px-4 py-20">
+  <div class="relative w-full rounded-[48px] overflow-hidden bg-gray-900 min-h-[500px] flex flex-col md:flex-row items-center justify-between px-8 md:px-20 py-20 gap-12">
     <!-- Background effects -->
-    <div class="absolute inset-0 bg-gradient-to-b from-[#0e3b4e] to-[#05151d] opacity-80"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-primary-950 via-gray-900 to-black opacity-90"></div>
     
     <!-- Abstract blurred shapes -->
-    <div class="absolute top-0 right-0 w-[400px] h-[400px] bg-blue-500 rounded-full blur-[120px] opacity-20"></div>
-    <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-teal-500 rounded-full blur-[120px] opacity-10"></div>
-
-    <!-- Curved Lines Overlay -->
-    <svg class="absolute inset-0 w-full h-full pointer-events-none opacity-30" viewBox="0 0 1000 400" preserveAspectRatio="none">
-       <path d="M-100,400 Q200,50 500,200 T1100,0" fill="none" stroke="white" stroke-width="1" />
-       <path d="M0,300 Q400,100 700,300 T1200,100" fill="none" stroke="white" stroke-width="1" opacity="0.5" />
-    </svg>
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-primary-600 rounded-full blur-[150px] opacity-20"></div>
+    <div class="absolute bottom-0 left-0 w-[300px] h-[300px] bg-primary-400 rounded-full blur-[120px] opacity-10"></div>
 
     <!-- Content -->
-    <div class="relative z-10 max-w-2xl mx-auto">
-      <div class="absolute top-8 left-8 md:top-12 md:left-12 flex items-center gap-2">
-         <div class="w-0.5 h-3 bg-white/50"></div>
-         <span class="text-white/70 text-[10px] tracking-widest font-medium uppercase">For Founders</span>
+    <div class="relative z-10 max-w-xl">
+      <div class="flex items-center gap-2 mb-8">
+         <div class="w-1 h-4 bg-primary-500"></div>
+         <span class="text-primary-400 text-[10px] tracking-widest font-bold uppercase">Our Vision</span>
       </div>
 
-      <h2 class="text-3xl md:text-4xl font-normal text-white mb-6 leading-tight">
-        Giving projects another option for their cap table
+      <h2 class="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
+        Building the global source of truth.
       </h2>
-      <p class="text-gray-300 text-sm mb-10 max-w-lg mx-auto leading-relaxed">
-        Echo helps you raise from people who believe in what you're building — whether it's through our private investor groups or directly from your own community.
+      <p class="text-gray-300 text-lg mb-10 leading-relaxed">
+        "Polymarket was founded on the belief that markets are the most powerful tool for information discovery. We're building a world where anyone can access the real-time probability of any event, powered by transparent blockchain technology. Our goal is to provide a neutral, decentralized platform that captures the collective wisdom of the world."
       </p>
       
-      <a href="/" class="inline-block border border-white/20 text-white px-6 py-3 text-sm hover:bg-white/10 transition-colors rounded-sm">
-        See Echo for founders
-      </a>
+      <div class="flex items-center gap-4">
+        <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-primary-500/30">
+          <img src="/generated/image-a-professional-visionary-portrait-of-a-y-1770453256968-4.webp" alt="Founder" class="w-full h-full object-cover" />
+        </div>
+        <div>
+          <p class="text-white font-bold text-sm">Shayne Coplan</p>
+          <p class="text-gray-400 text-xs">Founder & CEO, Polymarket</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="relative z-10 hidden lg:block w-1/3">
+      <div class="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl shadow-2xl">
+        <div class="space-y-6">
+          <div class="flex justify-between items-center border-b border-white/10 pb-4">
+            <span class="text-gray-400 text-xs">Platform Uptime</span>
+            <span class="text-green-400 font-mono text-sm">99.99%</span>
+          </div>
+          <div class="flex justify-between items-center border-b border-white/10 pb-4">
+            <span class="text-gray-400 text-xs">Total Markets</span>
+            <span class="text-white font-mono text-sm">15,000+</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-gray-400 text-xs">Settlement Speed</span>
+            <span class="text-primary-400 font-mono text-sm">Instant</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
