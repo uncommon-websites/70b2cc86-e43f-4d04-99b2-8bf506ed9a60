@@ -2,10 +2,6 @@
   // Footer CTA component
 </script>
 
-<script>
-  // Footer CTA component
-</script>
-
 <section class="px-6 py-32 text-center relative overflow-hidden bg-primary-50/30">
   <!-- Background curved lines (subtle) -->
   <svg class="absolute inset-0 w-full h-full pointer-events-none opacity-[0.05] text-primary-600" viewBox="0 0 1000 500" preserveAspectRatio="none">
